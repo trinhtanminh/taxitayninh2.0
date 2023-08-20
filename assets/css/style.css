@@ -13,20 +13,28 @@ h2 {
   padding-bottom: 2rem;
 }
 
+.mmt {
+  font-size: 0.8rem;
+}
+
+header {
+  padding-bottom: 1rem;
+}
+
 section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3.5rem;
+  padding-bottom: 1rem;
 }
 
 .col-sm {
-  padding-bottom: 10%;
+  padding-bottom: 0.5rem;
 }
 
 .flex-item {
   text-align: center;
   border-radius: 1rem;
   background: #F1F1F1;
-  box-shadow: 0rem 1rem 1rem 1rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0rem 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
   width: 100%;
   height: 100%;
   font-size: 100%;
@@ -48,12 +56,12 @@ section {
   color: white;
   border-radius: 1rem;
   background: #414141;
-  box-shadow: 1rem 1rem 1rem 1rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.25);
   width: 20rem;
   height: 20rem;
   margin: 3rem;
   padding: 2rem;
-  font-size: 80%;
+  font-size: 0.8rem;
   transition: background-color 0.3s ease;
 }
 
@@ -71,6 +79,7 @@ section {
   color: black; 
   padding: 6% 16%;
   transition: background-color 0.3s ease;
+  box-shadow: 0px 0.5rem 0.5rem 0.5rem rgba(255, 208, 37, 0.25);
 }
 
 .dx1:hover {
@@ -83,8 +92,9 @@ section {
   border-radius: 2rem;
   background-color: #f7ad22;
   color: #000; 
-  padding: 1rem 1rem;
+  padding: 0.5rem 0.5rem;
   transition: background-color 0.3s ease;
+  box-shadow: 0px 0.5rem 0.5rem 0.5rem rgba(255, 208, 37, 0.25);
 }
 
 .dx2:hover {
@@ -135,7 +145,7 @@ footer {
 
 .checked {
   color: orange;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .social-button{
@@ -186,3 +196,37 @@ footer {
   -o-animation: headerAnimation 0.7s 1;
   animation: headerAnimation 0.7s 1;
 }
+.bi {
+  font-size: 2rem;
+  text-decoration: none;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.bi:hover {
+  opacity: 0.7;
+}
+
+.bi-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.bi-twitter {
+  background: #397eed;
+  color: white;
+}
+
+.bi-instagram {
+  background: #cd4c4c;
+  color: white;
+}
+
+.bi-facebook {
+  background: #083368;
+  color: white;
+}
+
+
+
